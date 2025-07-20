@@ -1,6 +1,7 @@
 # Mental Health EDA & Prediction
 
-This project take reference from kaggle, Author: Mohamadreza Momeni,Mental Health (EDA + Prediction), just take this as a practice of vscode, github copilot, data amalysis and visualization.
+### This project take reference from kaggle, Author: Mohamadreza Momeni, just take this as a practice of vscode, github copilot, data analysis and visualization.
+
 This project provides a comprehensive workflow for exploratory data analysis (EDA) and predictive modeling on global mental health datasets. The primary analysis and modeling are performed in the `main.ipynb` notebook, which guides users through data loading, preprocessing, visualization, and machine learning.
 
 ## Project Structure
