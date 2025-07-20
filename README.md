@@ -1,10 +1,11 @@
 # Mental Health EDA & Prediction
 
-This project focuses on exploratory data analysis (EDA) and predictive modeling of global mental health data, sourced from various countries and regions.
+This project provides a comprehensive workflow for exploratory data analysis (EDA) and predictive modeling on global mental health datasets. The primary analysis and modeling are performed in the `main.ipynb` notebook, which guides users through data loading, preprocessing, visualization, and machine learning.
 
 ## Project Structure
 
 ```
+main.ipynb
 calldata.py
 FunctionalDescribe.py
 requirement.py
@@ -19,32 +20,49 @@ Dataset/
     Mental Illnesses Prevalence.csv
 ```
 
-## Installation
+## Getting Started
 
-Please install the required Python packages before running the project:
+### Prerequisites
+
+- Python 3.8 or higher
+
+### Installation
+
+Install the required Python packages before running the project:
 
 ```sh
 pip install -r requirement.py
 ```
 
-## Usage
+### Usage
 
-1. Place all datasets in the `Dataset/` folder.
-2. Run `calldata.py` to load and preprocess the data.
-3. Use `FunctionalDescribe.py` for data description and initial analysis.
-4. Execute `test.py` to perform model testing and evaluation.
+1. Ensure all datasets are placed in the `Dataset/` directory.
+2. Open and run `main.ipynb` in Jupyter Notebook or VS Code. The notebook covers:
+    - Data loading and preprocessing
+    - Exploratory data analysis and visualization (with Matplotlib, Seaborn, and Plotly)
+    - Feature engineering and normalization
+    - Correlation analysis
+    - Predictive modeling using linear regression
+    - Model evaluation and visualization of results
+
+Scripts such as `calldata.py`, `FunctionalDescribe.py`, and `test.py` are provided for modular data processing and testing, but the main workflow is in `main.ipynb`.
 
 ## File Descriptions
 
-- `calldata.py`: Script for data loading and preprocessing.
-- `FunctionalDescribe.py`: Descriptive statistics and visualization analysis.
-- `requirement.py`: List of required packages for the project.
-- `test.py`: Model testing and performance evaluation script.
-- `Dataset/`: Folder containing all raw datasets.
+- **main.ipynb**: The primary notebook for EDA, visualization, and predictive modeling.
+- **calldata.py**: Script for data loading and initial preprocessing.
+- **FunctionalDescribe.py**: Provides descriptive statistics and visualizations.
+- **requirement.py**: Lists all required Python packages.
+- **test.py**: Contains model testing and evaluation code.
+- **Dataset/**: Directory containing all raw datasets.
 
 ## Data Sources
 
-- For the source of each dataset, please refer to the documentation or original source within the `Dataset/` folder.
+The original sources for each dataset are documented within the `Dataset/` folder.
+
+## Contributing
+
+Contributions and feedback are welcome. Please open an issue or submit a pull request.
 
 ## Contact
 
